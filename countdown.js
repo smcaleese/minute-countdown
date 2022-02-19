@@ -38,7 +38,7 @@ function countdown(seconds, goal) {
             setCountdownText(true, goal);
             stopCountdown(timer);
         }
-    }, 20);
+    }, 1000);
 }
 
 function stopCountdown() {
