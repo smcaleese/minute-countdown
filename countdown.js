@@ -54,8 +54,9 @@ function startCountdown() {
         return;
     }
     showCountdownPage();
-    const initialSeconds = minutes * 60;
+    setCountdownText(false, goal, minutes);
 
+    const initialSeconds = minutes * 60;
     countdown(initialSeconds, goal);
 }
 
