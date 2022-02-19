@@ -6,12 +6,6 @@ Open `index.html` in a browser to run the app.
 
 ## Screenshots
 
-<br />
+> ![](./screenshots/settings.png)
 
-<img src="./screenshots/settings.png" style="border: 1px dotted black;">
-
-<br />
-
-<img src="./screenshots/countdown.png" style="border: 1px dotted black;">
-
-<br />
+> ![](./screenshots/countdown.png)
