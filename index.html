@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bulma -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <!-- LiveJS -->
+    <script type="text/javascript" src="https://livejs.com/live.js"></script>
+
+    <title>Minute Countdown</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="page center">
+        <div class="start">
+            <h1 class="title is-h1">Minutes Countdown</h3>
+            <div>
+                <h3 class="subtitle">Goal</h3>
+                <input class="input goal" type="text" />
+
+                <h3 class="subtitle">Minutes</h3>
+                <input class="minutes-input input" type="number" />
+
+                <button class="button is-primary start-button" onclick="startCountdown()">
+                    <strong>start</strong>
+                </button>
+            </div>
+        </div>
+
+        <div class="countdown center">
+            <div class="minutes-text center"></div>
+            <button class="button is-primary" onclick="resetCountdown()">reset</button>
+        </div>
+    </div>
+
+    <script src="countdown.js"></script>
+</body>
+</html>
