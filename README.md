@@ -1,4 +1,4 @@
-# Minute Countdown
+# Minutes Countdown
 
 ## Instructions
 
